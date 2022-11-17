@@ -11,7 +11,10 @@
 }
 
 .bg-image {
-    background-size: cover;
     opacity: .50;
+
+    background-size: cover;
+    background-position: center;
+    position: absolute;
 }
 
