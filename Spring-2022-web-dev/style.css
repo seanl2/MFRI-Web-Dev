@@ -5,3 +5,12 @@
 .first-navbar, .search-button {
     background-color: darkred;
 }
+
+.pt-5, .px-5, .pb-5 {
+    opacity: 1;
+}
+
+.bg-image {
+    opacity: .50;
+}
+
