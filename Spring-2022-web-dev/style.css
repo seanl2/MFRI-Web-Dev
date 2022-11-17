@@ -11,6 +11,7 @@
 }
 
 .bg-image {
+    background-size: cover;
     opacity: .50;
 }
 
