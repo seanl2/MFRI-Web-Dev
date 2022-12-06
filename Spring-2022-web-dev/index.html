@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light first-navbar">
       <a class="navbar-brand text-white" href="#">UNIVERSITY SYSTEMS OF MARYLAND</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,8 +61,8 @@
       </div>
     </nav>
     <div class="has-bg-img">
-      <div class="bg-image" style="background-image: url('Images/mfrisunsetcrop.png'); height: auto; width: auto">
-        <div class="d-flex  flex-col justify-content-center">
+      <div class="bg-image" style="background-image: url('Images/mfri_hq_sunset.original.jpg'); height: auto; width: auto">
+        <div class="d-flex justify-content-center">
           <h2 class="pt-5">MICRB Mission</h2>
         </div>
         <div class="d-flex flex-col justify-content-center">
@@ -74,10 +76,234 @@
           </h5>
         </div>
         </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <!-- <div class="modal fade" id="buttonModal" tabindex="-1" aria-labelledby="btnModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="btnModalLabel">Calendar</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="calendar"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Container -->
+    <div class="container">
+      <div class="d-flex  flex-col justify-content-center">
+        <h2 class="pt-5">MICRB Site Purpose</h2>
+      </div>
+      <div class="d-flex flex-col justify-content-center">
+        <h5 class="px-5 pt-3 pb-5 text-center">Instructors and Sponsors will be able to locate MICRB-related questions and resources on 
+          this site with updated site enhanements to improve efficiency and efficacy of user experiences. 
+        </h5>
+      </div>
+    </div>
+    <div class="has-bg-img">
+      <div class="bg-image" style="background-image: url('Images/mfrimeeting2.jpg'); height: auto; width: auto;">
+        <div class="d-flex  flex-col justify-content-center">
+          <h2 class="pt-5">Upcoming Meetings</h2>
+        </div>
+        <h5 class="d-flex justify-content-around m-5 pb-5">
+          <button type="button" class="btn-warning btn btn-outline-danger btn-lg" data-toggle="modal" data-target="#buttonModal" data-info="popped">
+            <div class="font-weight-bolder">Next Meeting Information</div>
+          </button>
+          <button type="button" class="btn-warning btn btn-outline-danger btn-lg" data-toggle="modal" data-target="#buttonModal" data-info="popped">
+            <div class="font-weight-bolder">Calendar View</div>
+          </button>
+        </h5>
+
+        <div class="modal fade" id="buttonModal" tabindex="-1" aria-labelledby="btnModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="btnModalLabel">Calendar</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="calendar"></div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center">
+      <div class="d-flex flex-col justify-content-center">
+        <h2>Application Links</h2>
+      </div>
+      <div class="row">
+        <div class="col icons rounded m-5">
+          <div class="text-center m-5">
+            <a class="text-white" href="#"><strong>Application for Instructor <br> Certification/Recertification</strong></a>
+          </div>
+        </div>
+        <div class="col icons rounded m-5">
+          <div class="text-center m-5">
+            <a class="text-white" href="#"><strong>Application for Instructor <br> Evaluator</strong></a>
+          </div>
+        </div>
+      </div>
     </div>
     </div>
+    <div class="container">
+      <div class="d-flex flex-col justify-content-center mb-3">
+        <h2>Other Links</h2>
+      </div>
+      <div class="d-flex justify-content-around flex-wrap mb-5">
+        <div class="icons p-4 rounded-circle">
+          <svg class="mx-4" xmlns="http://www.w3.org/2000/svg" width="75" height="100" fill="currentColor" class="bi bi-file-text-fill" viewBox="0 0 16 16">
+            <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"/>
+          </svg>
+          <div class="text-center">
+            <a class="text-white" href="#"><strong>IT Candidate <br> Worksheet</strong></a>
+          </div>
+        </div>
+        <div class="icons p-4 rounded-circle">
+          <svg class="mx-4" xmlns="http://www.w3.org/2000/svg" width="75" height="100" fill="currentColor" class="bi bi-file-text-fill" viewBox="0 0 16 16">
+            <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"/>
+          </svg>
+          <div class="text-center">
+            <a class="text-white" href="#"><strong>ITC Challenge <br> Process</strong></a>
+          </div>
+        </div>
+        <div class="icons p-4 rounded-circle">
+          <svg class="mx-4" xmlns="http://www.w3.org/2000/svg" width="75" height="100" fill="currentColor" class="bi bi-file-text-fill" viewBox="0 0 16 16">
+            <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"/>
+          </svg>
+          <div class="text-center">
+            <a class="text-white" href="#"><strong>Instructor <br> Evaluation <br> Form</strong></a>
+          </div>
+        </div>
+        <div class="icons p-4 rounded-circle">
+          <svg class="mx-4" xmlns="http://www.w3.org/2000/svg" width="75" height="100" fill="currentColor" class="bi bi-file-text-fill" viewBox="0 0 16 16">
+            <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"/>
+          </svg>
+          <div class="text-center">
+            <a class="text-white" href="#"><strong>PDI Approval <br> Form</strong></a>
+          </div>
+        </div>
+        <div class="icons p-4 rounded-circle">
+          <svg class="mx-4" xmlns="http://www.w3.org/2000/svg" width="75" height="100" fill="currentColor" class="bi bi-file-text-fill" viewBox="0 0 16 16">
+            <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"/>
+          </svg>
+          <div class="text-center">
+            <a class="text-white" href="#"><strong>Request for <br> Permission to <br> Begin the <br> Rentry Process</strong></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="text-center">Other Resources</h2>
+      <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center flex-wrap">
+              <div class="col-auto mb-5">
+                <img class="d-block w-75" src="Images/Certification_Standards.jpg" alt="First slide">
+              </div>
+              <div class="col">
+                <h5> CERTIFICATION STANDARDS AND PROCEDURES FOR EMERGENCY <br> SERVICES INSTRUCTORS IN THE STATE OF MARYLAND</h5>
+                <p>Title 13B, Subtitle 03, Chapter 01 Certification Standards and Procedures for Emergency Services Instructors Approved September 2021</p>
+                <a href="#" type="button" class="btn btn-outline-danger">DOWNLOAD</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center flex-wrap">
+              <div class="col-auto mb-5">
+                <img class="d-block w-75" src="Images/Board_Membership.jpg" alt="Second slide">
+              </div>
+              <div class="col">
+                <h5> BOARD MEMBERSHIP</h5>
+                <p>The MICRB is comprised of representatives of the Maryland Fire-Rescue Education and Training Commission, the Maryland Fire and Rescue Institute, 
+                  the Maryland Council of Fire and Rescue Academies, the Maryland Institute for Emergency Medical Services Systems, and the Maryland State Firemen's Association. 
+                  Members are appointed by the Chancellor of the University System of Maryland.</p>
+                <a href="#" type="button" class="btn btn-outline-danger">LEARN MORE</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center flex-wrap">
+              <div class="col-auto mb-5">
+                <img class="d-block w-75" src="Images/Certified_Instructors.jpg" alt="Third slide">
+              </div>
+              <div class="col">
+                <h5>MICRB CERTIFIED INSTRUCTORS AND APPROVED EVALUATORS</h5>
+                <p>Find an MICRB Instructor</p>
+                <a href="#" type="button" class="btn btn-outline-danger">FIND A MICRB CERTIFIED INSTRUCTOR</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center flex-wrap">
+              <div class="col-auto mb-5">
+                <img class="d-block w-75" src="Images/Approved_PDI.jpg" alt="Fourth slide">
+              </div>
+              <div class="col">
+                <h5>APPROVED PDI</h5>
+                <p>MICRB-Approved Professional Development/ Continuing Education Courses</p>
+                <a href="#" type="button" class="btn btn-outline-danger">FIND APPROVED PDI</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center flex-wrap">
+              <div class="col-auto mb-5">
+                <img class="d-block w-75" src="Images/Approved_PDI.jpg" alt="Fifth Slide">
+              </div>
+              <div class="col">
+                <h5>MICRB POLICIES AND PROCEDURES</h5>
+                <p>Policies and procedures adopted by the MICRB to facilitate the implementation and navigation of the Regulations.</p>
+                <a href="#" type="button" class="btn btn-outline-danger">SEE MICRB POLICIES AND PROCEDURES</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-arrow-left-square-fill" viewBox="0 0 16 16">
+            <path d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1z"/>
+          </svg>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
+            <path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"/>
+          </svg>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="has-bg-img">
+      <div class="bg-image" style="background-image: url('Images/mfri_footer_background.jpg'); height: 25vh; width: auto">
+        <h5 class="d-flex justify-content-sm-center m-5 pb-5">
+            <a href="#" class="btn btn-lg active text-white" role="button" aria-pressed="true">EQUITY</a>
+            <a href="#" class="btn btn-lg active text-white" role="button" aria-pressed="true">ETHICS</a>
+            <a href="#" class="btn btn-lg active text-white" role="button" aria-pressed="true">CONTACT</a>
+            <a href="#" class="btn btn-lg active text-white" role="button" aria-pressed="true">PRIVACY NOTE</a>
+            <a href="#" class="btn btn-lg active text-white" role="button" aria-pressed="true">WEB ACCESSIBILITY</a>          
+        </h5>
+      </div>
+    </div>
+  </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="script.js"></script>
+    <script src="/js/bootstrap.js"></script>
   </body>
 </html>

@@ -2,19 +2,24 @@
     font-family: "Times New Roman"; 
 }
 
-.first-navbar, .search-button {
+.first-navbar, .search-button, .icons {
     background-color: darkred;
 }
 
-.pt-5, .px-5, .pb-5 {
-    opacity: 1;
-}
-
 .bg-image {
-    opacity: .50;
-
     background-size: cover;
     background-position: center;
-    position: absolute;
+    
 }
+
+#calendar {
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+/* .carousel-control-prev-icon {
+    background-image: url("Images/arrow-right-square-fill.svg");
+    background-color: red
+} */
+
 
